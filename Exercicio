@@ -1,0 +1,6 @@
+vel = float(input('Qual a velocidade do carro? '))
+if vel > 80:
+    multa = (vel - 80) * 20
+    print('Você foi multado em R$', multa,'! ')
+if vel <= 80:
+    print('Boa viagem!!')
